@@ -1,0 +1,60 @@
+body{
+    background-color: $gray-200;
+}
+
+/*ui*/
+.ui__btnfix-br{
+    border-radius: 100%;
+    bottom: 25px;
+    font-size: 30px;
+    padding: 0 10px;
+    position: fixed;
+    right: 35px;
+}
+.ui__btnfix-br2{
+    bottom: 80px;
+    font-size: 20px;
+    padding: 0 10px;
+    position: fixed;
+    right: 35px;
+    i{
+        font-size: 24px;
+    }
+}
+.ui__btnfix-tr{
+    @extend .ui__btnfix-br;
+    border-radius: 60%;
+    bottom: auto;
+    top: 25px;
+    color: $gray-700 !important;
+}
+
+.setting-sidebar{
+    background-color: #ddd;
+    color: #666;
+    height: 100%;
+    overflow: auto;
+    
+    position: fixed!important;
+    right: 0;
+    top: 0;
+    width: 250px;
+    z-index: 1;
+    .btn-close{
+        width: 100%;
+        background-color: #f6f6f6;
+        background-position: 10%;
+        border: 0;
+        font-size: 18px;
+        font-weight: bold;
+        padding: 1rem;
+    }
+    .content{
+        padding: 1rem;
+    }
+}
+
+
+
+
+    
