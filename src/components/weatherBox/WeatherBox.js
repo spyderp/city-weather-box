@@ -49,7 +49,12 @@ const WeatherBox = ({city}) => {
                 </button>
             ) 
             }
-            <div className=" weatherInfo d-flex flex-column justify-content-end" style={{backgroundImage: `url("./assets/${city.current.is_day===1?'day':'night'}/${city.current.condition.code}.svg")`}}>
+            <div className=" weatherInfo d-flex flex-column justify-content-end">
+                <div className="icon">
+                    <figure>
+                        <img src={city.current.condition.icon} alt={city.current.condition.text} />
+                    </figure>
+                </div>
                 <div className="temp">
                     Temp: { settings.temperature === 'c' ?city.current.temp_c +'° C':city.current.temp_f +'° F' }
                 </div>

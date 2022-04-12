@@ -10,8 +10,8 @@ export const WeatherCityBoxList = () => {
             <div className="container-fluid">
                     <div className="d-flex flex-wrap justify-content-center p-3">
                         {cities.map( city =>(
-                            <WeatherBox key={city.location.tz_id} city={city}>
-
+                            <WeatherBox key={city.location.tz_id + Math.round(city.location.lat * city.location.lon).toString()} city={city}>
+                                
                             </WeatherBox>
                         )) }
                     </div>

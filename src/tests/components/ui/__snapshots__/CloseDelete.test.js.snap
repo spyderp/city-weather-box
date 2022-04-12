@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test ui components show close delete button 1`] = `
+<button
+  className="btn btn-danger ui__btnfix-br2"
+  onClick={[Function]}
+>
+  Hide Delete button 
+  <i
+    className="fas fa-trash-alt"
+  />
+</button>
+`;

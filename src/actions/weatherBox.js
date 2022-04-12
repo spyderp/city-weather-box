@@ -2,7 +2,10 @@ import { types } from "../commons/types";
 import { fetchGeo } from "../helpers/fetch";
 import { finishLoading, startLoading } from "./ui";
 
-
+/**
+ * 
+ * @returns 
+ */
 export const startLoad = ()=>{
     return async(dispatch)=>{
         try {

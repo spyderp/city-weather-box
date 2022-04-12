@@ -29,6 +29,7 @@ body{
     color: $gray-700 !important;
 }
 
+
 .setting-sidebar{
     background-color: #ddd;
     color: #666;
@@ -54,7 +55,26 @@ body{
     }
 }
 
+.autoContainer{
+    display: block;
+    width: 100%;
+}
 
-
-
-    
+.react-autosuggest__suggestions-container--open{
+    position: absolute;
+    float: left;
+    background: white;
+    width: 60%;
+    padding-right: 15px;
+    padding-left: 10px;
+    li{
+        list-style: none;
+        margin-left: -25px;
+    }
+    .react-autosuggest__suggestion{
+        cursor: pointer;
+        &:hover{
+            background-color: #ccc;
+        }
+    }
+}

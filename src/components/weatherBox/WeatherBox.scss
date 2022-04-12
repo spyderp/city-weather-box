@@ -10,12 +10,14 @@
     color: $black;
     font-family: Roboto;
     font-style: normal;
-    height: 430px;
+    height: 320px;
     padding: 1rem;
-    width: 350px;
+    width: 262px;
     margin: 1rem;
     img{
-        width: 100%;
+        width: 64px;
+        border: 3px solid #ccc;
+        border-radius: 20%;
     }
     .city{
         font-size: 18px;
@@ -34,15 +36,14 @@
         line-height: 16px;
     }
     .weatherInfo{
-        width: 310px;
-        height: 310px;
+        width: 100%;
         background-size: 100%;
     }
-    .wind, .temp, .humidity{
+    .wind, .temp, .humidity, .icon{
         font-size: 14px;
         font-weight: bold;
         font-style: italic;
-        text-align: right;
+        text-align: center;
         padding-right: 0.5rem;
         color: #6D737D;
     }

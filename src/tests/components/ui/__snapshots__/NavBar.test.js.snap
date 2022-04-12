@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test ui components show navbar 1`] = `
+<nav
+  className="navbar navbar-dark bg-dark bg-gradient fixed-top animate__animated animate__fadeInDown"
+>
+  <div
+    className="container-fluid"
+  >
+    <form
+      className="d-flex"
+      onSubmit={[Function]}
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup="listbox"
+        aria-owns="react-autowhatever-1"
+        className="autoContainer flex-fill me-2 "
+        key="react-autowhatever-1-container"
+        role="combobox"
+      >
+        <input
+          aria-activedescendant={null}
+          aria-autocomplete="list"
+          aria-controls="react-autowhatever-1"
+          autoComplete="off"
+          className="form-control me-2 py-2"
+          key="react-autowhatever-1-input"
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Type name for city"
+          type="text"
+          value=""
+        />
+        <div
+          className="react-autosuggest__suggestions-container"
+          id="react-autowhatever-1"
+          key="react-autowhatever-1-items-container"
+          role="listbox"
+        />
+      </div>
+      <button
+        className="  flex-fill btn btn-primary btn-lg"
+        type="submit"
+      >
+        Add
+      </button>
+      <button
+        className=" flex-fill btn btn-danger btn-lg mx-1"
+        onClick={[Function]}
+        type="button"
+      >
+        Cancel
+      </button>
+    </form>
+  </div>
+</nav>
+`;
